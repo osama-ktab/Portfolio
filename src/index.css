@@ -1,0 +1,19 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  /* background-color: black; */
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  background-color: #2e2e2e;
+  padding: 20px;
+}
