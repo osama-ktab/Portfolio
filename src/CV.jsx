@@ -8,7 +8,15 @@ function CV() {
     github: "https://github.com/osama-ktab",
   };
 
-  const skills = ["React", "JavaScript", "HTML", "CSS", "Responsive UI"];
+  const skills = [
+    "C#(oop)",
+    "React",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Responsive UI",
+    "Git & GitHub",
+  ];
 
   return (
     <section className="cv-section" id="cv">
@@ -26,7 +34,11 @@ function CV() {
         </p>
         <p className="cv-contact">
           GitHub:{" "}
-          <a href={profile.github} target="_blank" rel="noopener noreferrer" className="cv-inline-link">
+          <a
+            href={profile.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cv-inline-link">
             osama-ktab
           </a>
         </p>
@@ -47,7 +59,11 @@ function CV() {
           <ul className="cv-project-links">
             {projects.map((project) => (
               <li key={project.id}>
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className="cv-inline-link">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cv-inline-link">
                   {project.title}
                 </a>
               </li>
@@ -55,7 +71,10 @@ function CV() {
           </ul>
         </div>
 
-        <a href="/assets/Osama-Khatab-CV.pdf" download className="cv-download-btn">
+        <a
+          href="/assets/Osama-Khatab-CV.pdf"
+          download
+          className="cv-download-btn">
           Download CV (PDF)
         </a>
       </div>

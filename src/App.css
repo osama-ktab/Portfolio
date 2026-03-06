@@ -2,7 +2,12 @@
   max-width: 1180px;
   margin: 0 auto;
   text-align: center;
-  background: radial-gradient(circle at top, #353535 0%, #262626 55%, #202020 100%);
+  background: radial-gradient(
+    circle at top,
+    #353535 0%,
+    #262626 55%,
+    #202020 100%
+  );
   min-height: 100vh;
   padding: 20px 20px 56px;
 }
@@ -83,7 +88,9 @@ body::-webkit-scrollbar-thumb:hover {
   text-decoration: none;
   padding: 16px 22px;
   border-radius: 26px;
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .session a:hover {
@@ -186,7 +193,9 @@ body::-webkit-scrollbar-thumb:hover {
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 14px 26px rgba(0, 0, 0, 0.35);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .project-card:hover {
@@ -454,5 +463,3 @@ body::-webkit-scrollbar-thumb:hover {
     text-align: center;
   }
 }
-
-
