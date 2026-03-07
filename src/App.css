@@ -95,7 +95,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .session a:hover {
   background-color: #3b3b3b;
-  color: #ffd08e;
+  color: #8be8ff;
 }
 
 .flex {
@@ -233,7 +233,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .project-tag {
   margin: 0 0 8px;
-  color: #ffad60;
+  color: #61dafb;
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 1px;
@@ -253,18 +253,41 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .project-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
   padding: 10px 14px;
   border-radius: 10px;
   text-decoration: none;
   font-weight: 600;
   color: #121212;
-  background: linear-gradient(135deg, #ffb871, #ffd08e);
+  background: linear-gradient(135deg, #61dafb, #214247fc);
   transition: filter 0.2s ease;
+}
+
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-github-link {
+  color: #f2f2f2;
+  background: #1d1d1d;
+  border: 1px solid #4a4a4a;
+}
+
+.github-icon {
+  width: 16px;
+  height: 16px;
 }
 
 .project-link:hover {
   filter: brightness(1.07);
+}
+
+.project-github-link:hover {
+  border-color: #6f6f6f;
 }
 
 .cv-section {
@@ -300,7 +323,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .cv-role {
   margin: 8px 0 16px;
-  color: #ffbd79;
+  color: #61dafb;
   font-weight: 600;
 }
 
@@ -310,7 +333,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .cv-inline-link {
-  color: #ffd08e;
+  color: #61dafb;
   text-decoration: none;
 }
 
@@ -357,7 +380,7 @@ body::-webkit-scrollbar-thumb:hover {
   text-decoration: none;
   color: #121212;
   font-weight: 700;
-  background: linear-gradient(135deg, #ffb871, #ffd08e);
+  background: linear-gradient(135deg, #61dafb, #214247fc);
 }
 
 .cv-download-btn:hover {
@@ -389,9 +412,15 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .footer-links a {
-  color: #ffd08e;
+  color: #61dafb;
   text-decoration: none;
   font-size: 0.92rem;
+}
+
+.github-inline-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .footer-links a:hover {
@@ -447,6 +476,10 @@ body::-webkit-scrollbar-thumb:hover {
 
   .project-content {
     text-align: center;
+  }
+
+  .project-actions {
+    justify-content: center;
   }
 
   .cv-card {

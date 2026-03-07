@@ -8,7 +8,8 @@ export default [
     title: "Tenzies-Game",
     description:
       "A simple game built with React where players roll dice and try to get all dice to show the same number.",
-    link: "https://tenziesgamee.netlify.app",
+    linkPage: "https://tenziesgamee.netlify.app",
+    linkCode: "https://github.com/osama-ktab/Tenzies",
   },
   {
     id: 2,
@@ -19,7 +20,8 @@ export default [
     title: "Meme Generator",
     description:
       "A fun web application that allows users to create and customize memes using a variety of templates and text options.",
-    link: "https://memgeneretor.netlify.app/",
+    linkPage: "https://memgeneretor.netlify.app/",
+    linkCode: "https://github.com/osama-ktab/Meme-Generator",
   },
   {
     id: 3,
@@ -29,8 +31,9 @@ export default [
     },
     title: "Travel Journal",
     description:
-      "A travel journal application that allows users to document their travel experiences, including photos, descriptions, and locations.",
-    link: "https://traveljorney.netlify.app/",
+      "A travel journal application that allows users to  document their travel experiences, including photos, descriptions, and locations.",
+    linkPage: "https://traveljorney.netlify.app/",
+    linkCode: "https://github.com/osama-ktab/Travel-journey",
   },
   {
     id: 4,
@@ -41,6 +44,7 @@ export default [
     title: "Lone",
     description:
       "A single-page application that serves as a personal portfolio or landing page, showcasing skills, projects, and contact information.",
-    link: "https://osama-ktab.github.io/lone/",
+    linkPage: "https://osama-ktab.github.io/lone/",
+    linkCode: "https://github.com/osama-ktab/lone",
   },
 ];

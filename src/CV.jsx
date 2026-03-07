@@ -1,4 +1,5 @@
 import projects from "./projects";
+import GitHubIcon from "./GitHubIcon";
 
 function CV() {
   const profile = {
@@ -38,7 +39,8 @@ function CV() {
             href={profile.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="cv-inline-link">
+            className="cv-inline-link github-inline-link">
+            <GitHubIcon />
             osama-ktab
           </a>
         </p>
@@ -60,7 +62,7 @@ function CV() {
             {projects.map((project) => (
               <li key={project.id}>
                 <a
-                  href={project.link}
+                  href={project.linkPage}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cv-inline-link">
